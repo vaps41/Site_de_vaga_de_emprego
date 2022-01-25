@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAGAS DE EMPREGO!</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Style.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <div id="bodyheader">
+            <h2 class="text-muted">Sistema de controle de vagas de emprego</h2>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Vagas de emprego</button>
+                </li>
+                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-profile-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                        aria-controls="pills-profile" aria-selected="false"><a href="./Cadastrar.html">Cadastrar
+                            vaga</a></button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section id="bodysection">
+        <div id="section">
+            <h2>Vagas Disponíveis:</h2>
+            <button type="button" class="btn btn-success"><a href="./Cadastrar.html">+ Nova Vaga</a></button>
+        </div>
+        <div id="list">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">ID Vaga</th>
+                        <th scope="col">Vaga</th>
+                        <th scope="col">Salário</th>
+                        <th scope="col">Cidade</th>
+                        <th scope="col">Setor</th>
+                        <th scope="col">Cargo</th>
+                        <th scope="col">Contrato</th>
+                        <th scope="col" id="detalhe">Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Desenvolvedor Front-end Junior</td>
+                        <td>R$ 3.000</td>
+                        <td>São Paulo</td>
+                        <td>Criatividade e Design</td>
+                        <td>Analista</td>
+                        <td>CLT</td>
+                        <td>
+                            <details>
+                                <summary><b>Saiba mais...</b></summary>
+                                <p>Habilidade em desenvolvimento de software: com boas práticas de engenharia de
+                                    software backend, independentemente de linguagem e framework Responsabilidade: o
+                                    Codificação com Qualidade. o Code Review e Pair Programing o Desenvolver
+                                    soluções de
+                                    acordo com análise. o Testes unitários. o Seguir e participar de cerimonias do
+                                    Framework adotado. o Executar outras atribuições correlatas, de acordo com a
+                                    necessidade da área. o Zelar pelos equipamentos sob sua responsabilidade e pelo
+                                    ambiente de trabalho. o Cumprir as normas, procedimentos e políticas
+                                    corporativas e
+                                    contribuir com o atingimento de metas relacionadas à gestão ambiental,
+                                    segurança,
+                                    saúde e qualidade o Conceitos de CI (Continuos Integration) e CD (Continuos
+                                    Deployment) o Codificação utilizando Padrões de Projetos (Design Patterns) e
+                                    aplicando conceitos Solid</p>
+                            </details>
+                        </td>
+                        <td><button type="button" class="btn btn-outline-danger">Excluir</button></br><button
+                                type="button" class="btn btn-outline-warning">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Desenvolvedor Back-end</td>
+                        <td>R$ 4.500</td>
+                        <td>Santos</td>
+                        <td>Criatividade e Design</td>
+                        <td>Analista</td>
+                        <td>PJ</td>
+                        <td>
+                            <details>
+                                <summary><b>Saiba mais...</b></summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eligendi
+                                    veritatis,
+                                    sit
+                                    quas quibusdam, quae totam, temporibus consectetur laboriosam nostrum enim. Nemo
+                                    voluptates velit unde consequatur excepturi, maiores est adipisci!</p>
+                            </details>
+                        </td>
+                        <td><button type="button" class="btn btn-outline-danger">Excluir</button></br><button
+                                type="button" class="btn btn-outline-warning">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Desenvolvedor Júnior ReactJS</td>
+                        <td>R$ 2.050</td>
+                        <td>Minas Gerais</td>
+                        <td>Criatividade e Design</td>
+                        <td>Estagiário(a)</td>
+                        <td>CLT</td>
+                        <td>
+                            <details>
+                                <summary><b>Saiba mais...</b></summary>
+                                <p>O que nós buscamos
+                                    A procura de 1 desenvolvedor junior para trabalhar com uma aplicação full stack
+                                    web
+                                    para nosso cliente Europeu.
+                                    Seria um adicional ter familiaridade com testes unitários e de integração, além
+                                    de
+                                    conhecimento em áreas do front end como Styled Components e MaterialUI.
+                                    Conhecimento
+                                    básico de Inglês seria util para lidar com o cliente.
+
+                                    Principais responsabilidades
+                                    É necessário ter conhecimento de ReactJs.
+
+                                    Descrição da empresa
+                                    Uma empresa full stack que entrega aplicações modernas para clientes nos Estados
+                                    Unidos e Europa.</p>
+                            </details>
+                        </td>
+                        <td><button type="button" class="btn btn-outline-danger">Excluir</button></br><button
+                                type="button" class="btn btn-outline-warning">Editar</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Técnico de Inspeção da Indústria Metalúrgica</td>
+                        <td>R$ 2.500</td>
+                        <td>Mauá</td>
+                        <td>Indústria</td>
+                        <td>Produção</td>
+                        <td>CLT</td>
+                        <td>
+                            <details>
+                                <summary><b>Saiba mais...</b></summary>
+                                <p>Atividades:conferência, inspeção e identificação de materiais para estoque
+                                    (refinaria): englobam atividades que visam garantir a conformidade dos materiais
+                                    recebidos em relação ao pedido de compra, transferências, materiais retornados
+                                    de
+                                    recuperação, devoluções de materiais ao certificados de liberação dos materiais
+                                    (clm),dos certificados dequalidade e das licenças requeridas e efetuar as
+                                    respectivas digitalizações e vinculação no sap ou software desejados:
+                                    requisitos:
+                                    nível técnico, com comprovação de 03 (três) anos de serviços executados na área
+                                    de
+                                    inspeção de equipamentos e/ou de materiais. Deve possuir qualificação em testes
+                                    por
+                                    pontos (snqc/sequi/aendi) e curso de proteção radiológica reconhecido pelo cnen.
+                                    Desejável conhecimento de sap-R3 módulo : técnico em mecânica, elétrica,
+                                    eletromecânica, logística, administração, química petroquímica entre outros. Cft
+                                    ou
+                                    crea ativo.</p>
+                            </details>
+                        </td>
+                        <td><button type="button" class="btn btn-outline-danger">Excluir</button></br><button
+                                type="button" class="btn btn-outline-warning">Editar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
