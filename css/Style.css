@@ -82,7 +82,9 @@ p {
 .enviar .btn {
     width: 100%;
 }
-
+footer{
+    margin-top: 100px;
+}
 @media screen and (max-width: 600px) {
     body {
         display: flex;
