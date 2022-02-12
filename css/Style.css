@@ -62,7 +62,10 @@ tr {
 td {
     margin: 5px 1px;
 }
-
+#codi_vaga{
+    text-decoration: none;
+    color: #000;
+}
 /* #detalhe {
     width: 200px;
 } */
