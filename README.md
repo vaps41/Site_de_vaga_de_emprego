@@ -6,6 +6,8 @@
 
 * ✔️ Css
 
+* ✔️ Bootstrap
+
 * ✔️ Javascript
 
 # 💻 Projeto
