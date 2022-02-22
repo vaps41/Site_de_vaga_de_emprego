@@ -9,4 +9,9 @@
 * ✔️ Javascript
 
 # 💻 Projeto
-* Este projeto está em andamento.
+
+* Projeto sem backend.
+* Este projeto está finalizado.
+
+# Backand
+
